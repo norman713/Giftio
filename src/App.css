@@ -1,4 +1,4 @@
-/* src/styles/App.css */
+
 body {
   font-family: Arial, sans-serif;
   background-color: #38b6ff;
@@ -6,7 +6,7 @@ body {
 }
 
 button {
-  padding: 20px 20px;
+  padding: 20px 30px;
   margin: 20px;
   background-color: #004aad;
   color: #c1ff72;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate để điều hướng
+import { useNavigate } from 'react-router-dom';
 
 const ModalForm = ({ type, onClose }) => {
   const [formData, setFormData] = useState({
@@ -20,10 +20,10 @@ const ModalForm = ({ type, onClose }) => {
     e.preventDefault();
     alert('Cảm ơn bạn đã gửi thông tin!');
     if (type === 'feedback') {
-      onClose(); // Đóng modal khi bấm "Gửi"
+      onClose(); // Đóng modal 
     } else {
-      navigate('/'); // Điều hướng về trang LandingPage khi bấm "Gửi"
-      onClose(); // Đóng modal
+      navigate('/'); // Điều hướng về trang LandingPage 
+      onClose(); 
     }
   };
 
@@ -97,8 +97,8 @@ const styles = {
     border: 'none',
     cursor: 'pointer',
     borderRadius: '5px',
-    flex: 1, // Để các button chiếm cùng chiều rộng
-    margin: '0 10px', // Khoảng cách giữa các button
+    flex: 1, 
+    margin: '0 10px', 
   },
 };
 
